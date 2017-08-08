@@ -33,6 +33,6 @@ html{font-size: 100px;}
 .wrap .subject label{width: 0.17rem;height: 0.17rem;display: inline-block;background-image: url(../img/no.png);background-size: cover;vertical-align: text-top;}
 .wrap .subject .select{font-size: 0.16rem;margin-top: 0.2rem;position: relative;}
 .wrap .subject input[type='radio']:checked+label{background-image: url(../img/yes.png);background-size: cover;}
-.submit{width: 70%;height: 0.3rem;background-color: #B52738;display: block;border: none;color: #fff;text-align: center;line-height: 0.3rem;border-radius: 0.05rem;font-size: 0.14rem;position: fixed;left: 50%;bottom: 10%;margin-left: -35%;z-index: 100;}
+.submit{width: 70%;height: 0.3rem;background-color: #B52738;display: block;border: none;color: #fff;text-align: center;line-height: 0.3rem;border-radius: 0.05rem;font-size: 0.14rem;position: fixed;left: 50%;bottom: 8%;margin-left: -35%;z-index: 100;}
 .wait{width: 60%;height: 0.33rem;line-height: 0.33rem;background-color: #000;opacity: 0.7;text-align: center;color: #fff;border-radius: 0.03rem;font-size: 0.12rem;position: absolute;top: 44%;left: 50%;margin-left: -30%;display: none;z-index: 200;}
 #stop.cur{background-color: #D47E89;}
