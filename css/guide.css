@@ -18,8 +18,8 @@ section::after {
     width: 20px;
     height: 20px;
     margin-left: -10px;
-    border-left: 2px solid red;
-    border-bottom: 2px solid red;
+    border-left: 2px solid #B52738;
+    border-bottom: 2px solid #B52738;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb05 1.5s infinite;
