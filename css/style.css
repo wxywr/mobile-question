@@ -1,0 +1,38 @@
+body,ul,ol,p,h1,h2,h3,h4,h5,dl,dd,form,input,textarea,
+td,th,button,strong,em,select,video,canvas{margin:0;padding:0;}
+li{list-style:none;}
+table{ border-collapse:collapse;}
+textarea{resize:none;overflow:auto;}
+img{ border:none; vertical-align:middle;max-width: 100%;display: block;}
+em{ font-style:normal;}
+a{ text-decoration:none;}
+a,input{-webkit-appearance: none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input{outline: none;}
+a, img {-webkit-touch-callout: none; }
+html, body {-webkit-user-select: none;   user-select: none;}
+body{font-family: "Helvetica Neue", Helvetica, "STHeiTi", sans-serif; overflow-x:hidden; overflow-y:auto;font-size: 0.14rem;}
+html{font-size: 100px;}
+.fl{float:left;}
+.fr{float:right;}
+/*首页*/
+.active{width: 90%;position: absolute;left: 5%;top: 14%;z-index: 20;}
+.active h4{text-align: center;color: #C98809;}
+.active p{font-size: 0.12rem;width: 90%;margin: 0 auto;}
+.active h3{text-align: center;margin-top: 0.7rem;color: #DE304D;letter-spacing: 0.05rem;}
+.active .line{width: 0.16rem;border: 1px solid #DE304D;margin: 0.05rem auto 0.5rem;}
+.active .phone{width: 85%;margin: 0 auto 0.3rem;font-size: 0.14rem;}
+.active .pho{width: 77%;height: 0.2rem;border: 1px solid #A5A5A5;border-width: 0 0 1px 0;text-align: center;}
+.active .btn{width: 85%;height: 0.3rem;background-color: #B52738;display: block;margin: 0 auto;border: none;color: #fff;text-align: center;line-height: 0.3rem;border-radius: 0.05rem;font-size: 0.14rem;}
+.alert{width: 60%;height: 0.33rem;line-height: 0.33rem;background-color: #000;opacity: 0.7;text-align: center;color: #fff;border-radius: 0.03rem;font-size: 0.12rem;position: absolute;top: 44%;left: 50%;margin-left: -30%;display: none;}
+/*问答*/
+.wrap{width: 90%;position: absolute;left: 5%;top: 28%;z-index: 100;}
+.wrap .tep{padding: 0.01rem 0.05rem;background-color: #7F7F7F;text-align: center;font-size: ;color: #fff;display: inline-block;border-radius: 0.05rem;margin-left: 47%;}
+.wrap .warn{text-align: center;color: #DE304D;font-size: 0.14rem;margin: 0.2rem 0;}
+.wrap .subject .tit{font-size: 0.15rem;}
+.wrap .subject input[type='radio']{width: 0.17rem;height: 0.17rem;opacity: 0;position: absolute;left: 0;top: 0.03rem;}
+.wrap .subject label{width: 0.17rem;height: 0.17rem;display: inline-block;background-image: url(../img/no.png);background-size: cover;vertical-align: text-top;}
+.wrap .subject .select{font-size: 0.16rem;margin-top: 0.2rem;position: relative;}
+.wrap .subject input[type='radio']:checked+label{background-image: url(../img/yes.png);background-size: cover;}
+.submit{width: 70%;height: 0.3rem;background-color: #B52738;display: block;border: none;color: #fff;text-align: center;line-height: 0.3rem;border-radius: 0.05rem;font-size: 0.14rem;position: fixed;left: 50%;bottom: 10%;margin-left: -35%;z-index: 100;}
+.wait{width: 60%;height: 0.33rem;line-height: 0.33rem;background-color: #000;opacity: 0.7;text-align: center;color: #fff;border-radius: 0.03rem;font-size: 0.12rem;position: absolute;top: 44%;left: 50%;margin-left: -30%;display: none;z-index: 200;}
+#stop.cur{background-color: #D47E89;}

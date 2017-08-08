@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+	<meta name="applicable-device" content="mobile">
+	<title>第二轮问答</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<img src="img/m-bg.jpg" alt="">
+	<img src="img/txt.png" alt="" style="width: 90%;position: absolute;left: 5%;top: 6%;z-index: 10;">
+	<img src="img/btm.png" alt="" style="position: absolute;left: 0;bottom: 0;z-index: 10;">
+	<div class="wrap">
+		<div class="tep">2</div>
+		<div class="warn">(答题已开始,请尽快作答)</div>
+		<div class="subject">
+			<div class="tit">请问您认为目前医患关系不断恶化,是医生的问题？还是病人的问题？或者是双方共同的问题？( )</div>
+			<div class="select"><input type="radio" id="ill" name="peop" value="sick" checked=""><label for="ill"></label>&nbsp;&nbsp;&nbsp;&nbsp;A. 病人</div>
+			<div class="select"><input type="radio" id="doctor" name="peop" value="doc"><label for="doctor"></label>&nbsp;&nbsp;&nbsp;&nbsp;B. 医生</div>
+			<div class="select"><input type="radio" id="both" name="peop" value="all"><label for="both"></label>&nbsp;&nbsp;&nbsp;&nbsp;C. 两者都有</div>
+		</div>
+	</div>
+	<input type="button" class="submit up-b" value="确认提交">
+	<img src="img/ok.png" alt="" id="ok" style="width: 18%;position: absolute;left: 50%;top: 42%;margin-left: -9%;z-index: 200;display: none;">
+	<div class="wait"></div>
+</body>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/question.js"></script>
+</html>
